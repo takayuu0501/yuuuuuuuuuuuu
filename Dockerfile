@@ -1,4 +1,6 @@
-FROM scratch
+FROM node:20
+WORKDIR /app
+...
 
 EXPOSE 8474
 ENTRYPOINT ["/toxiproxy"]
